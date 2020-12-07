@@ -1,7 +1,7 @@
 # *Musa_ABBA_BBAA_Introgession
 
 
-![Logo](ABBA_Test.png)
+![Logo](images/ABBA_Test.png)
 
 
 Purpose of Musa_ABBA_BBAA_Introgession
