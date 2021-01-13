@@ -4,6 +4,52 @@
 ![Logo](images/ABBA_Test.png)
 
 
+<details>
+<summary>Table of content</summary>
+
+## Table of contents
+
+- [**How to cite**](#How-to-cite)
+- [**Introduction**](#Introduction)
+  - ABBA_BBAA Test
+  - Python Test
+  - R Test
+- [**Workflow - Calculate ABBA_BBA Python test**](#workflow---molecular-karyotype-analysis)
+  - Input raw data
+  - Read Quality check
+  - **Step a : Mapping reads on the reference**
+  - DNA Data
+  - RNA Data
+  - **Step b : Variant discovery**
+- [**Workflow - Calculate ABBA_BBA R test**](#workflow---molecular-karyotype-analysis)
+  - Merge datasets
+  - Filter SNP dataset
+  - Split VCF by chromosome
+  - Generate molecular karyotype
+- [**Authors and acknowledgments**](#authors-and-acknowledgment) 
+- [**Contact**](#contact) 
+
+</details>
+
+
+How to cite
+-----------
+<div align="justify">
+Filling the gaps in gene banks: Collecting, characterizing and phenotyping wild banana relatives of Papua new guinea David Eyland, Catherine Breton, Julie Sardos, Simon Kallow, Bart Panis, Rony Swennen, Janet Paofa, François Tardieu, Claude Welcker Steven B. Janssens, Sebastien C. Carpentier. *Crop Science* https://doi.org/10.1002/csc2.20320  
+</div>
+
+  
+If you use the second workflow.
+<div align="justify">
+A protocol for detection of large chromosome variations in banana using Next Generation Sequencing. Breton Catherine, Cenci Alberto, Sardos Julie, Chase Rachel, Ruas Max, Rouard Mathieu & Roux Nicolas Published in October. Under review.
+</div>
+
+## Introduction
+
+
+
+###  Genomic Complexity Reduction
+
 Purpose of Musa_ABBA_BBAA_Introgession
 --------------------------------------
 
