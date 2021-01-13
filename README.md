@@ -4,6 +4,12 @@
 ![Logo](images/ABBA_Test.png)
 
 
+## Introduction
+
+Purpose of Musa_ABBA_BBAA_Introgession
+--------------------------------------
+
+
 <details>
 <summary>Table of content</summary>
 
@@ -32,6 +38,10 @@
 </details>
 
 
+
+
+
+
 How to cite
 -----------
 <div align="justify">
@@ -43,17 +53,6 @@ If you use the second workflow.
 <div align="justify">
 A protocol for detection of large chromosome variations in banana using Next Generation Sequencing. Breton Catherine, Cenci Alberto, Sardos Julie, Chase Rachel, Ruas Max, Rouard Mathieu & Roux Nicolas Published in October. Under review.
 </div>
-
-## Introduction
-
-
-
-###  Genomic Complexity Reduction
-
-Purpose of Musa_ABBA_BBAA_Introgession
---------------------------------------
-
-
 
 ## Authors and acknowledgments
 
