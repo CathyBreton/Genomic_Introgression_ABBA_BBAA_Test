@@ -6,6 +6,12 @@
 
 ## Introduction
 
+Hybridization between species represents a major force of evolution, influenced by the external element, as glacial period, migration species or climatic changes, The genome can evolved by providing material for adaptation by natural and or sexual selection. Hybridization can decrease the difference between two species by sharing alleles across the genome, but can also act as a source of variation, impacting adaptation, aiding in evolutionary rescue, promoting range expansion, leading to species divergence, and finally fueling adaptative radiation.  
+
+Since the beginning of  next generation sequencing, and because of the decreasing cost,  the number of whole-genome sequencing increase. Associated to new statistical methods to detect the signature of hybridization at the whole genome or chromosome level, genome sequencing technic provide an information patterns (SNP) across a tree as markers of hybridization. 
+
+
+
 Purpose of Musa_ABBA_BBAA_Introgession
 --------------------------------------
 
