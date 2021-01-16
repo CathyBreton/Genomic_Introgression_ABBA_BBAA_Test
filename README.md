@@ -1,7 +1,7 @@
 # *Musa_ABBA_BBAA_Introgession*
 
 
-![Logo](images/ABBA_Test.png)
+![Banniere](images/ABBA_Test.png)
 
 
 ## Introduction
