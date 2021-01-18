@@ -15,6 +15,10 @@ Since the beginning of  next generation sequencing, and because of the decreasin
 
 Purpose of Musa_ABBA_BBAA_Introgession
 --------------------------------------
+
+
+**Workflow - Calculate ABBA_BBA Python test Simon Martin Ref**
+
 <div align="justify">
 Due to the explosive expansion in genomic resources, scientist have developed several statistical tests to detect introgression. Patterson’s D-statistic also known as the ABBA-BABA test was developed to quantify the amount of genetic exchange. It considers of an ancestral “A” allele  and derived “B” alleles via mutation across the genome of four taxa. Under the hypothesis  “without introgression” the two allelic patterns “ABBA” or “BABA” occurred with equal frequency (((A,B))B)A) = (((B,A))B)A). An excess of “ABBA” or “BABA” shown by a D-statistic significantly different from zero indicate a gene flow between two taxa. A D-Statistic > 0 means an excess of ABBA indicates an introgression between population P2 to population P3, provided that P1 and P3 are not exchanging gene flow. Whereas D-Statistic < 0 which is an excess of BABA indicate an introgression between P1 and P3. To detect potential past hybridization, we used the ABBA-BABA test ( Martin …..), Patterson’s D test is D = [sum(ABBA) – sum(BABA)] / [sum(ABBA) + sum(BABA)] with ABBA = (1- p1 ) x p2 x p3 x (1- pO ), and BABA = p1 x (1- p2 ) x p3 x (1- pO ). To compute the standard error (Green et al 2010), we used the block jackknife approach. The number of ABBA, BBAA BABA sites was calculate with the workflow suite of Martin described in http://evomics.org/learning/population-and-speciation-genomics/2018-population-and-speciation-genomics/abba-baba-statistics. 
 <div>
@@ -54,7 +58,24 @@ The vcf file previously obtained with GATK version 4 was transformed in a geno f
 
 
 
+Dependencies
+------------
+The tools are developed in Perl, bash, Python3, Java and work on the Linux system and require:
 
+| Tools  | Website | Version |
+| ------ | ------- | ------- |
+| Bamtools      | https://github.com/pezmaster31/bamtools                         | bamtools/2.4.0 |
+| BWA           | http://bio-bwa.sourceforge.net                                  | bwa/0.7.12 |
+| Cutadapt      | https://cutadapt.readthedocs.io/en/stable/                      | cutadapt/2.10  |
+| FastQC        | https://www.bioinformatics.babraham.ac.uk/projects/fastqc/      | FastQC/0.11.7 |
+| GATK V4       | https://software.broadinstitute.org/gatk/                       | GenomeAnalysisTK/4.0.5.2 |
+| GATK V3       | https://software.broadinstitute.org/gatk/                       | GenomeAnalysisTK/3.7-0   |
+| Picard Tools  | https://broadinstitute.github.io/picard/                        | picard-tools/2.7.0   |
+| sambamba      | https://lomereiter.github.io/sambamba/                          | sambamba/0.6.6 |
+| Samtools      | https://github.com/samtools/samtools                            | samtools/1.2  |
+| STAR          | https://github.com/alexdobin/STAR                               | STAR/2.5.0b |
+| VCFHunter     | https://github.com/SouthGreenPlatform/VcfHunter                 |  |
+| Vcftools      | https://vcftools.github.io/index.html                           | vcftools/0.1.14  |
 
 
 
