@@ -17,11 +17,17 @@ Purpose of Musa_ABBA_BBAA_Introgession
 --------------------------------------
 
 
-**Workflow - Calculate ABBA_BBA Python test Simon Martin Ref**
+
 
 <div align="justify">
 Due to the explosive expansion in genomic resources, scientist have developed several statistical tests to detect introgression. Patterson’s D-statistic also known as the ABBA-BABA test was developed to quantify the amount of genetic exchange. It considers of an ancestral “A” allele  and derived “B” alleles via mutation across the genome of four taxa. Under the hypothesis  “without introgression” the two allelic patterns “ABBA” or “BABA” occurred with equal frequency (((A,B))B)A) = (((B,A))B)A). An excess of “ABBA” or “BABA” shown by a D-statistic significantly different from zero indicate a gene flow between two taxa. A D-Statistic > 0 means an excess of ABBA indicates an introgression between population P2 to population P3, provided that P1 and P3 are not exchanging gene flow. Whereas D-Statistic < 0 which is an excess of BABA indicate an introgression between P1 and P3. To detect potential past hybridization, we used the ABBA-BABA test ( Martin …..), Patterson’s D test is D = [sum(ABBA) – sum(BABA)] / [sum(ABBA) + sum(BABA)] with ABBA = (1- p1 ) x p2 x p3 x (1- pO ), and BABA = p1 x (1- p2 ) x p3 x (1- pO ). To compute the standard error (Green et al 2010), we used the block jackknife approach. The number of ABBA, BBAA BABA sites was calculate with the workflow suite of Martin described in http://evomics.org/learning/population-and-speciation-genomics/2018-population-and-speciation-genomics/abba-baba-statistics. 
 <div>
+  
+  
+**Workflow - Calculate ABBA_BBA Python test Simon Martin Ref**
+
+**Workflow - Obtain a vcf file **
+
 <div align="justify">
 The vcf file previously obtained with GATK version 4 was transformed in a geno file with the script parseVCF.py, some filters --minQual=20 and flag=DP min=5 were applied. On the genotype file, freq.py was used to calculate de frequency of each allele of each population. All the population P1, P2, P3 and outgroup were defined to test the hypothesis on banksii introgression in Papouasie New Guinea (PNG). To calculate the ABBA-BBAA number per windows the script ABBABABAwindows.py was applied with a windows of 10Mb. To compute the variance of D despite non-independence among site we used the jackknife. The block size needs to exceed the distance at which autocorrelation occurs, then we choose 10Mb.  and then to calculate the error and Z score, we used the script calculate_abba_baba_Musa.r adapted to our data. 
 <div>
