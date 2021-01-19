@@ -83,6 +83,9 @@ Dependencies
 ------------
 The tools are developed in Perl, bash, Python3, Java and work on the Linux system and require:
 
+
+<p align="center">
+
 | Tools  | Website | Version |
 | ------ | ------- | ------- |
 | Bamtools      | https://github.com/pezmaster31/bamtools                         | bamtools/2.4.0 |
@@ -98,7 +101,7 @@ The tools are developed in Perl, bash, Python3, Java and work on the Linux syste
 | VCFHunter     | https://github.com/SouthGreenPlatform/VcfHunter                 |  |
 | Vcftools      | https://vcftools.github.io/index.html                           | vcftools/0.1.14  |
 
-
+</p>
 
 How to cite
 -----------
