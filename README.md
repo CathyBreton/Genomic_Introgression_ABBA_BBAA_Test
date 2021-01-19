@@ -38,7 +38,7 @@ The procedure to obtain the vcf file is described here https://github.com/CathyB
     
 
 <p align="center">
-   <img src="images/RNAseq_Quantif.png" width="750"/>
+   <img src="images/Genomic_Workflow.png" width="750"/>
 </p>
 
 
