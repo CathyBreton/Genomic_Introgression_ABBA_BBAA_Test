@@ -41,6 +41,8 @@ The procedure to obtain the vcf file is described here https://github.com/CathyB
    <img src="images/Genomic_Workflow.png" width="750"/>
 </p>
 
+&nbsp;
+
 
 
 <div align="justify">
