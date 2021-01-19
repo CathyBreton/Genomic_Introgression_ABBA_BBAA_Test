@@ -33,6 +33,16 @@ Input files : vcf file
 The procedure to obtain the vcf file is described here https://github.com/CathyBreton/Genomic_Evolution.
 
 
+&nbsp;
+
+    
+
+<p align="center">
+   <img src="images/RNAseq_Quantif.png" width="750"/>
+</p>
+
+
+
 <div align="justify">
 The vcf file previously obtained with GATK version 4 was transformed in a geno file with the script parseVCF.py, some filters --minQual=20 and flag=DP min=5 were applied. On the genotype file, freq.py was used to calculate de frequency of each allele of each population. All the population P1, P2, P3 and outgroup were defined to test the hypothesis on banksii introgression in Papouasie New Guinea (PNG). To calculate the ABBA-BBAA number per windows the script ABBABABAwindows.py was applied with a windows of 10Mb. To compute the variance of D despite non-independence among site we used the jackknife. The block size needs to exceed the distance at which autocorrelation occurs, then we choose 10Mb.  and then to calculate the error and Z score, we used the script calculate_abba_baba_Musa.r adapted to our data. 
 <div>
