@@ -93,8 +93,9 @@ Filling the gaps in gene banks: Collecting, characterizing and phenotyping wild 
 </div>
 
   
-If you use the second workflow.
+
 <div align="justify">
+If you use the second workflow.
 Breton Catherine, Cenci Alberto, Sardos Julie, Chase Rachel, Ruas Max, Rouard Mathieu & Roux Nicolas (2022). A Protocol for Detection of Large Chromosome Variations in Banana Using Next Generation Sequencing. In: Jankowicz-Cieslak, J., Ingelbrecht, I.L. (eds) Efficient Screening Techniques to Identify Mutants with TR4 Resistance in Banana. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-64915-2_9
 </div>
 
