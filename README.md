@@ -20,7 +20,7 @@ Purpose of Musa_ABBA_BBAA_Introgession
 
 
 <div align="justify">
-Due to the explosive expansion in genomic resources, scientist have developed several statistical tests to detect introgression. Patterson’s D-statistic also known as the ABBA-BABA test was developed to quantify the amount of genetic exchange. It considers of an ancestral “A” allele  and derived “B” alleles via mutation across the genome of four taxa. Under the hypothesis  “without introgression” the two allelic patterns “ABBA” or “BABA” occurred with equal frequency (((A,B))B)A) = (((B,A))B)A). An excess of “ABBA” or “BABA” shown by a D-statistic significantly different from zero indicate a gene flow between two taxa. A D-Statistic > 0 means an excess of ABBA indicates an introgression between population P2 to population P3, provided that P1 and P3 are not exchanging gene flow. Whereas D-Statistic < 0 which is an excess of BABA indicate an introgression between P1 and P3. To detect potential past hybridization, we used the ABBA-BABA test ( Martin …..) Patterson’s D.
+Due to the explosive expansion in genomic resources, scientist have developed several statistical tests to detect introgression. Patterson’s D-statistic also known as the ABBA-BABA test was developed to quantify the amount of genetic exchange. It considers of an ancestral “A” allele  and derived “B” alleles via mutation across the genome of four taxa. Under the hypothesis  “without introgression” the two allelic patterns “ABBA” or “BABA” occurred with equal frequency (((A,B))B)A) = (((B,A))B)A). An excess of “ABBA” or “BABA” shown by a D-statistic significantly different from zero indicate a gene flow between two taxa. A D-Statistic > 0 means an excess of ABBA indicates an introgression between population P2 to population P3, provided that P1 and P3 are not exchanging gene flow. Whereas D-Statistic < 0 which is an excess of BABA indicate an introgression between P1 and P3. To detect potential past hybridization, we used the ABBA-BABA test ( Martin et al., 2015) Patterson’s D in https://github.com/simonhmartin/genomics_general.
 &nbsp;
 
 Patterson’s D test is D = [sum(ABBA) – sum(BABA)] / [sum(ABBA) + sum(BABA)] with ABBA = (1- p1 ) x p2 x p3 x (1- pO ), and BABA = p1 x (1- p2 ) x p3 x (1- pO ). To compute the standard error (Green et al 2010), we used the block jackknife approach. The number of ABBA, BBAA BABA sites was calculate with the workflow suite of Martin described in http://evomics.org/learning/population-and-speciation-genomics/2018-population-and-speciation-genomics/abba-baba-statistics. 
@@ -79,7 +79,13 @@ The tools are developed in Perl, bash, Python3, Java and work on the Linux syste
 | Vcftools      | https://vcftools.github.io/index.html                           | vcftools/0.1.14  |
 
 </p>
-
+  
+Ref
+----------- 
+<div align="justify">
+Martin, S. H., Davey, J. W., and Jiggins, C. D. (2015). Evaluating the Use of ABBA–BABA Statistics to Locate Introgressed Loci. Molecular Biology and Evolution 32, 244–257. doi: 10.1093/molbev/msu269. https://github.com/simonhmartin/genomics_general.
+</div>
+  
 How to cite
 -----------
 <div align="justify">
