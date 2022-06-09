@@ -54,34 +54,6 @@ The vcf file previously obtained with GATK version 4 was transformed in a geno f
 
 
 
-<details>
-<summary>Table of content</summary>
-
-## Table of contents
-
-- [**How to cite**](#How-to-cite)
-- [**Introduction**](#Introduction)
-  - ABBA_BBAA Test
-  - Python Test
-  - R Test
-- [**Workflow - Calculate ABBA_BBA Python test**](#workflow---molecular-karyotype-analysis)
-  - Input raw data
-  - Read Quality check
-  - **Step a : Mapping reads on the reference**
-  - DNA Data
-  - RNA Data
-  - **Step b : Variant discovery**
-- [**Workflow - Calculate ABBA_BBA R test**](#workflow---molecular-karyotype-analysis)
-  - Merge datasets
-  - Filter SNP dataset
-  - Split VCF by chromosome
-  - Generate molecular karyotype
-- [**Authors and acknowledgments**](#authors-and-acknowledgment) 
-- [**Contact**](#contact) 
-
-</details>
-
-
 
 
 Dependencies
