@@ -104,7 +104,7 @@ Breton Catherine, Cenci Alberto, Sardos Julie, Chase Rachel, Ruas Max, Rouard Ma
   
 ## Authors and acknowledgments
 
-This work is a collaborative work between Catherine Breton, Yann Huber, Mathieu Rouard with the participation, and the use of scripts from Guillaume Martin (CIRAD) who develops and maintains VCFHunter.
+This work is a collaborative work between Catherine Breton, Mathieu Rouard with the Julie Sardos, .
 
 ## Contact
 
