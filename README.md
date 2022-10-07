@@ -88,9 +88,11 @@ Martin, S. H., Davey, J. W., and Jiggins, C. D. (2015). Evaluating the Use of AB
   
 How to cite
 -----------
+
 <div align="justify">
-Filling the gaps in gene banks: Collecting, characterizing and phenotyping wild banana relatives of Papua new guinea David Eyland, Catherine Breton, Julie Sardos, Simon Kallow, Bart Panis, Rony Swennen, Janet Paofa, François Tardieu, Claude Welcker Steven B. Janssens, Sebastien C. Carpentier. *Crop Science* https://doi.org/10.1002/csc2.20320  
+Sardos J, Breton C, Perrier X, Van den Houwe I, Carpentier S, Paofa J, Rouard M and Roux N (2022) Hybridization, missing wild ancestors and the domestication of cultivated diploid bananas. Front. Plant Sci. 13:969220. https://doi.org/10.3389/fpls.2022.969220
 </div>
+&nbsp;
   
 &nbsp;
 
